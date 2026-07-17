@@ -168,35 +168,32 @@ La solución implementa el siguiente flujo de procesamiento de datos:
 
 ---
 
-# Diagrama de arquitectura
+# Arquitectura de la solución
 
 ```text
-                     Usuario
-                         │
-                         ▼
-              Firebase Hosting
-          (Frontend HTML, CSS y JS)
-                         │
-                  Solicitud HTTP
-                         │
-                         ▼
-         Firebase Cloud Functions
-      (Lógica de negocio y API HTTP)
-                         │
-             Consulta de información
-                         │
-                         ▼
-             Firebase Firestore
-            (Base de datos NoSQL)
-                         ▲
-                         │
-              Importación desde CSV
-                         │
-                         ▼
-               Dataset productos.csv
+                         Usuario
+                             │
+                             ▼
+        Firebase Hosting (Frontend Lunara)
+                             ⇅
+                        HTTP / JSON
+                             ⇅
+          Firebase Cloud Functions (API HTTP)
+                 obtenerProductos()
+                             ⇅
+                  Consulta de productos
+                             ⇅
+                 Firebase Firestore
+                  (Base de datos NoSQL)
+                             ▲
+                             │
+          Firebase Cloud Functions
+                importarCSV()
+            (Carga del dataset)
+                             ▲
+                             │
+                  Dataset productos.csv
 ```
-
----
 
 # Características implementadas
 
@@ -214,6 +211,9 @@ La solución implementa el siguiente flujo de procesamiento de datos:
 - Carrito de compras utilizando LocalStorage.
 - Inicio y cierre de sesión mediante almacenamiento local.
 - Despliegue público mediante Firebase Hosting.
+
+El usuario accede a la aplicación desplegada en Firebase Hosting. El frontend realiza una solicitud HTTP a la Cloud Function obtenerProductos(), la cual consulta los productos almacenados en Firestore y devuelve la información en formato JSON para construir el catálogo de manera dinámica. Inicialmente, los datos fueron cargados desde el archivo productos.csv mediante la Cloud Function importarCSV()."
+
 
 ---
 
