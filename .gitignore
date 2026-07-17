@@ -1,0 +1,21 @@
+# Dependencias de Node.js
+node_modules/
+
+# Dependencias dentro de Cloud Functions
+functions/node_modules/
+
+# Archivos generados por Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Variables de entorno
+.env
+.env.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de VS Code (opcional)
+.vscode/

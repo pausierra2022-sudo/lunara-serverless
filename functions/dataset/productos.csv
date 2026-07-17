@@ -1,0 +1,21 @@
+id,nombre,categoria,talla,precio,stock,imagen,descripcion
+1,Vestido Elegante Negro,Vestidos,M,149900,8,vestido_elegante_negro.jpg,Vestido elegante para ocasiones especiales.
+2,Vestido Floral Rosa,Vestidos,S,129900,10,vestido_floral_rosa.jpg,Vestido floral fresco y moderno.
+3,Vestido Casual Beige,Vestidos,M,119900,12,vestido_casual_beige.jpg,Vestido cómodo para uso diario.
+4,Vestido Satinado Noche,Vestidos,L,179900,5,vestido_satinado_noche.jpg,Vestido sofisticado para eventos.
+5,Blusa Blanca Clásica,Blusas,M,79900,15,blusa_blanca_clasica.jpg,Blusa clásica elegante.
+6,Blusa Satinada Dorada,Blusas,S,89900,10,blusa_satinada_dorada.jpg,Blusa satinada premium.
+7,Blusa Manga Larga,Blusas,L,84900,7,blusa_manga_larga.jpg,Blusa cómoda para cualquier ocasión.
+8,Blusa Estampada Floral,Blusas,M,74900,9,blusa_estampada_floral.jpg,Blusa con estampado floral.
+9,Jean Skinny Azul,Jeans,M,109900,14,jean_skinny_azul.jpg,Jean ajustado moderno.
+10,Jean Mom Fit,Jeans,M,119900,11,jean_mom_fit.jpg,Jean estilo mom fit.
+11,Jean Negro Premium,Jeans,L,129900,8,jean_negro_premium.jpg,Jean negro elegante.
+12,Jean Recto Clásico,Jeans,S,114900,10,jean_recto_clasico.jpg,Jean clásico recto.
+13,Falda Midi Beige,Faldas,M,89900,6,falda_midi_beige.jpg,Falda midi elegante.
+14,Falda Plisada Rosa,Faldas,S,99900,8,falda_plisada_rosa.jpg,Falda plisada moderna.
+15,Falda Denim,Faldas,M,94900,10,falda_denim.jpg,Falda denim casual.
+16,Falda Larga Negra,Faldas,L,109900,4,falda_larga_negra.jpg,Falda larga elegante.
+17,Chaqueta Denim Azul,Chaquetas,M,149900,9,chaqueta_denim_azul.jpg,Chaqueta denim clásica.
+18,Chaqueta Cuero Negra,Chaquetas,L,199900,5,chaqueta_cuero_negra.jpg,Chaqueta cuero premium.
+19,Blazer Beige,Chaquetas,M,169900,7,blazer_beige.jpg,Blazer elegante.
+20,Blazer Negro Ejecutivo,Chaquetas,L,179900,6,blazer_negro_ejecutivo.jpg,Blazer ejecutivo premium.

@@ -1,0 +1,150 @@
+/* ===== ESTILOS GENERALES ===== */
+
+body{
+    background-color:#f8f9fa;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+    background:#212529 !important;
+}
+
+.navbar-brand{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+
+    background:linear-gradient(
+        rgba(0,0,0,0.35),
+        rgba(0,0,0,0.35)
+    ),
+    url('../img/inicio/foto_principal.jpg');
+
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+
+    color:white;
+
+    min-height:650px;
+
+    display:flex;
+    align-items:center;
+
+}
+.hero .container{
+
+    max-width:650px;
+
+    margin-left:auto;
+
+    margin-right:100px;
+
+    text-align:left;
+
+}
+
+
+.hero h1{
+
+    font-size:5rem;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.hero h3{
+
+    font-size:2rem;
+
+    margin-bottom:20px;
+}
+
+.hero p{
+
+    font-size:1.2rem;
+
+    max-width:600px;
+
+    margin:0 0 30px 0;
+}
+/* ===== BOTONES ===== */
+
+.btn-lunara{
+    background:#C89B3C;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    font-weight:bold;
+}
+
+.btn-lunara:hover{
+    background:#b2852f;
+    color:white;
+}
+
+/* ===== PRODUCTOS ===== */
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-img-top{
+    height:420px;
+    object-fit:cover;
+    object-position: top center;
+}
+
+.card-body h5{
+    font-weight:bold;
+}
+
+/* ===== FOOTER ===== */
+
+.footer-lunara{
+    background:#212529;
+    color:white;
+    text-align:center;
+    padding:40px;
+    margin-top:50px;
+}
+/* NAVBAR FIJO */
+
+body{
+    padding-top: 80px;
+}
+
+.navbar{
+    box-shadow:none;
+    border-bottom:none;
+}
+
+/* Banner página Contacto */
+
+.banner-contacto{
+    width:100%;
+    border-radius:15px;
+}
+
+.page-title{
+    color:#C89B3C;
+    font-weight:bold;
+    font-size:3rem;
+}
